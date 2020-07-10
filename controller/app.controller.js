@@ -44,6 +44,10 @@ const createData = (req, res) => {
   let mu = [];
 
   for (i = 0; i < 211; i++) {
+if(datos[i].pais === "República Democrática del Congo "){
+  datos[i].pais = "Rep. Dem. del Congo"
+}
+
     ind[i] = datos[i].indicador;
     pa[i] = datos[i].pais;
     ca[i] = datos[i].casos;

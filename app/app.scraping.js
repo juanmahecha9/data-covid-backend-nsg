@@ -23,8 +23,8 @@ function dropDataJson() {
 }
 
 /* Funcion principal */
-let arreglo = [];
 function hbs(){
+let arreglo = [];
   dropDataJson();
   const resultado = request(URL, function (error, response, body) {
     if (error) {
@@ -37,10 +37,12 @@ function hbs(){
       //Paises
       // modificar los datos captados de los paises para que sean visibles como vector
       let pais = $(this).find(".c__r").text().trim().replace(/\s\s+/g, "' ,'");
-  
+      console.log(pais)
+ 
       //Generar un vector
       pais = pais.replace(/\'/g, "");
       pais = pais.split(",");
+          
   
       //Arreglar el primer dato del vector
       let pais1 = pais[0]; // Dato 1 del vector
