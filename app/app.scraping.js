@@ -37,7 +37,7 @@ let arreglo = [];
       //Paises
       // modificar los datos captados de los paises para que sean visibles como vector
       let pais = $(this).find(".c__r").text().trim().replace(/\s\s+/g, "' ,'");
-      console.log(pais)
+     // console.log(pais)
  
       //Generar un vector
       pais = pais.replace(/\'/g, "");
