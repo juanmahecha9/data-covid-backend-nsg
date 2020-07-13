@@ -30,7 +30,7 @@ const control = async (req, res) => {
 
 /* Funcion para la creacion de los datos de los paises */
 const createData = (req, res) => {
- // hbs();
+ hbs();
 
   /* Definir variables para almacenar en la DB */
   let ind = [];
