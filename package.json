@@ -18,7 +18,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fs-extra": "^9.0.1",
     "mongoose": "^5.9.22",
     "morgan": "^1.10.0",
